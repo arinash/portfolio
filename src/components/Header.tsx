@@ -9,12 +9,12 @@ export default function Header() {
         <div className="text-right text-white text-xs leading-6 font-mono">
             <p>Frontend Developer · Berlin</p>
             <a href="mailto:arina.shumeliuk@gmail.com" 
-                className="hover:text-accent hover:underline transition-colors duration-200">
+                className="hover:text-muted hover:underline transition-colors duration-200">
                     arina.shumeliuk@gmail.com
             </a>
             <br />
             <a href="https://github.com/arinash" 
-                className="hover:text-accent hover:underline transition-colors duration-200">
+                className="hover:text-muted hover:underline transition-colors duration-200">
                 github.com/arinash
             </a>
         </div>
