@@ -46,8 +46,10 @@ export const experience: ExperienceItem[] = [
     bullets: [
       'Developed and optimized internal web applications to improve process and operational efficiency',
       'Built and maintained databases ensuring secure and reliable application functionality',
-      'Designed and implemented backend systems and APIs for internal tools',
-      'Enhanced usability and UX through iterative improvements',
+      'Designed and implemented backend systems and REST APIs for internal tools',
+      'Designed, built and maintained databases',
+      'Improved usability, UX and accessibility through iterative enhancements and cross-functional collaboration',
+      'Supported the entire software development lifecycle from design to development and deployment',
     ],
   },
   {
@@ -57,7 +59,7 @@ export const experience: ExperienceItem[] = [
     bullets: [
       'Integrated an AI-based ECG analysis feature into a telemedicine platform',
       'Analyzed feature relevance and model interpretability using SHAP and feature importance methods',
-      'Tested and documented third-party REST API for medical annotation tools',
+      'Evaluated, tested and documented third-party REST API for medical annotation tools',
     ],
   },
   {
@@ -76,7 +78,7 @@ export const experience: ExperienceItem[] = [
     bullets: [
       'Processed, pseudonymized and analyzed large datasets using cloud-based technologies',
       'Enhanced the functionality of a portable data terminal (PDT) to improve logistics workflows',
-      'Contributed to software modules development for warehouse management systems',
+      'Implemented data pipelines using Apache Kafka for data collection and Apache Spark for large-scale data processing',
     ],
   },
 ]
@@ -84,19 +86,23 @@ export const experience: ExperienceItem[] = [
 export const skillGroups: SkillGroup[] = [
   {
     label: 'Frontend',
-    skills: ['React', 'TypeScript', 'JavaScript', 'Vue', 'TailwindCSS', 'HTML5', 'CSS3', 'Vite'],
+    skills: ['React', 'TypeScript', 'JavaScript', 'Next.js', 'Vue.js', 'HTML5', 'CSS3', 'TailwindCSS', 'Vite'],
+  },
+  {
+    label: 'Web & UI',
+    skills: ['Responsive Design', 'Accessibility', 'Figma'],
   },
   {
     label: 'Backend',
-    skills: ['Node.js', 'Django', 'Python', 'Java'],
+    skills: ['Node.js', 'NestJS', 'Django', 'REST APIs', 'Python', 'Java'],
   },
   {
-    label: 'Database',
+    label: 'Databases',
     skills: ['SQL', 'PostgreSQL', 'MySQL'],
   },
   {
     label: 'Tools',
-    skills: ['Docker', 'GitHub', 'Postman', 'Grafana', 'Jira', 'Confluence'],
+    skills: ['Git', 'Docker', 'GitHub Actions (CI/CD)', 'Postman', 'Grafana', 'Jira', 'Confluence'],
   },
 ]
 
@@ -105,13 +111,14 @@ export const projects: ProjectItem[] = [
     title: 'Project Submission & Review Tool',
     description: [
       'Full-stack web application for structured project submission and approval workflows.',
-      'Automated reviewer handover, role-based access control, and authentication. Interactive dashboards with filtering, sorting, and timeline tracking.',
+      'Automated reviewer handover, role-based access control, and authentication',
+      'Interactive dashboards with filtering, sorting, and timeline tracking.',
     ],
   },
   {
     title: 'Interactive Research & Collaboration Map',
     description: [
-      'Interactive map visualizing global research collaborations for Prof. Dr. Rinke at FU Berlin.',
+      'Interactive map visualizing global research collaborations.',
       'Dynamic filtering with real-time marker updates across the world map.',
     ],
   },

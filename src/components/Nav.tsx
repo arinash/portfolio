@@ -6,7 +6,7 @@ export default function Nav({ onTabChange, currentTab }: { onTabChange: (tab: st
   ]
 
   return (
-    <nav className="px-16 py-4 border-b border-line flex">
+    <nav className="flex justify-center sm:justify-start sm:px-16 py-4 border-b border-line flex">
       {items.map((item) => (
         <button
           key={item.value}

@@ -6,7 +6,7 @@ export default function Header() {
                 Arina Shumeliuk
             </h1>
         </div>
-        <div className="text-right text-white text-xs leading-6 font-mono">
+        <div className="md:text-right text-left text-white text-xs leading-6 font-mono">
             <p>Frontend Developer · Berlin</p>
             <a href="mailto:arina.shumeliuk@gmail.com" 
                 className="hover:text-muted hover:underline transition-colors duration-200">
